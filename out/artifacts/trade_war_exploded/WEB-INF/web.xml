@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowNews</servlet-name>
+    <servlet-class>org.cs.trade.control.ShowNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Detail</servlet-name>
+    <servlet-class>org.cs.trade.control.Detail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InfoDetail</servlet-name>
+    <servlet-class>org.cs.trade.control.InfoDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>org.cs.trade.control.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>org.cs.trade.control.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyUser</servlet-name>
+    <servlet-class>org.cs.trade.control.ModifyUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindUser</servlet-name>
+    <servlet-class>org.cs.trade.control.FindUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindNews</servlet-name>
+    <servlet-class>org.cs.trade.control.FindNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Find</servlet-name>
+    <servlet-class>org.cs.trade.control.Find</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Jump</servlet-name>
+    <servlet-class>org.cs.trade.control.Jump</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddInfo</servlet-name>
+    <servlet-class>org.cs.trade.control.AddInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyInfo</servlet-name>
+    <servlet-class>org.cs.trade.control.MyInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteInfo</servlet-name>
+    <servlet-class>org.cs.trade.control.DeleteInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowInfo</servlet-name>
+    <servlet-class>org.cs.trade.control.ShowInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyInfo</servlet-name>
+    <servlet-class>org.cs.trade.control.ModifyInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindUsers</servlet-name>
+    <servlet-class>org.cs.trade.control.FindUsers</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteUser</servlet-name>
+    <servlet-class>org.cs.trade.control.DeleteUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLogin</servlet-name>
+    <servlet-class>org.cs.trade.control.AdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminModify</servlet-name>
+    <servlet-class>org.cs.trade.control.AdminModify</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveUser</servlet-name>
+    <servlet-class>org.cs.trade.control.SaveUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminFindNews</servlet-name>
+    <servlet-class>org.cs.trade.control.AdminFindNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteNews</servlet-name>
+    <servlet-class>org.cs.trade.control.DeleteNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminShowNews</servlet-name>
+    <servlet-class>org.cs.trade.control.AdminShowNews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminAddNews</servlet-name>
+    <servlet-class>org.cs.trade.control.AdminAddNews</servlet-class>
+  </servlet>
+
+
+
+
+  
+  <filter>
+   <filter-name>enconding</filter-name>
+   <filter-class>org.cs.trade.utils.Filter</filter-class>
+  </filter>
+  <filter-mapping>
+   <filter-name>enconding</filter-name>
+   <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+
+  <servlet-mapping>
+    <servlet-name>ShowNews</servlet-name>
+    <url-pattern>/servlet/shownews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Detail</servlet-name>
+    <url-pattern>/servlet/detail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InfoDetail</servlet-name>
+    <url-pattern>/servlet/infodetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/servlet/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyUser</servlet-name>
+    <url-pattern>/servlet/modifyser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindUser</servlet-name>
+    <url-pattern>/servlet/finduser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindNews</servlet-name>
+    <url-pattern>/servlet/findnews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Find</servlet-name>
+    <url-pattern>/servlet/find</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Jump</servlet-name>
+    <url-pattern>/servlet/jump</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddInfo</servlet-name>
+    <url-pattern>/servlet/addinfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyInfo</servlet-name>
+    <url-pattern>/servlet/myinfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteInfo</servlet-name>
+    <url-pattern>/servlet/deleteinfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowInfo</servlet-name>
+    <url-pattern>/servlet/showinfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyInfo</servlet-name>
+    <url-pattern>/servlet/modifyinfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindUsers</servlet-name>
+    <url-pattern>/servlet/findusers</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteUser</servlet-name>
+    <url-pattern>/servlet/deleteuser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLogin</servlet-name>
+    <url-pattern>/servlet/adminlogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminModify</servlet-name>
+    <url-pattern>/servlet/adminmodify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveUser</servlet-name>
+    <url-pattern>/servlet/saveuser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminFindNews</servlet-name>
+    <url-pattern>/servlet/adminfindnews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteNews</servlet-name>
+    <url-pattern>/servlet/deletenews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminShowNews</servlet-name>
+    <url-pattern>/servlet/adminshownews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminAddNews</servlet-name>
+    <url-pattern>/servlet/adminaddnews</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
